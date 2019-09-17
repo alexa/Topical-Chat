@@ -1,5 +1,5 @@
 # Topical-Chat
-We introduce Topical-Chat, a knowledge-grounded humanhuman conversation dataset where the underlying knowledge spans 8 broad topics and conversation partners don’t have explicitly defined roles.
+We introduce Topical-Chat, a knowledge-grounded human-human conversation dataset where the underlying knowledge spans 8 broad topics and conversation partners don’t have explicitly defined roles.
 
 Topical-Chat broadly consists of two types of files:
 
@@ -15,7 +15,7 @@ For more detailed information about the dataset and benchmarking experiments ref
 ## Setup Environment to Build Data
 ```
 Ensure that your Python Interpreter >= 3.7
-git clone git@github.com:alexa/alexa-prize-topical-chat-dataset.git
+git clone https://github.com/alexa/alexa-prize-topical-chat-dataset.git
 cd alexa-prize-topical-chat-dataset/src
 pip3 install -r requirements.txt
 
