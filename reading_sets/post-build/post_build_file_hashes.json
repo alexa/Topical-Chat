@@ -1,0 +1,7 @@
+{
+   "train.json": "70c00764694204ef38aafdf65cf4b7f7",
+   "valid_freq.json": "541d94bf56f1a698986058b805b811ce",
+   "valid_rare.json": "220f4b2aeff7765e349dd52f651b0a51",
+   "test_freq.json": "c005bf381668e64d5ab1a030bb3c3451",
+   "test_rare.json": "febaf9400cf30ef8e5856ac94e4eee15"
+ }

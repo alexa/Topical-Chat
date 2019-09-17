@@ -1,0 +1,1 @@
+The code contained in the wapo_retriever.py file will cause you to download Washington Post content which is subject to the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License, currently available at https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.  You may not use this file except in compliance with the License.

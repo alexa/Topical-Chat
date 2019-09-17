@@ -1,0 +1,1 @@
+The Wikipedia content contained in the wiki.json file is subject to the Creative Commons Attribution-ShareAlike 3.0 Unported License, which is currently available at https://creativecommons.org/licenses/by-sa/3.0/.  You may not use this file except in compliance with the License.
