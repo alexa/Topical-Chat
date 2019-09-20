@@ -34,10 +34,10 @@ build.py will read each file in /alexa-prize-topical-chat-dataset/reading_sets/p
 ### Data Statistics:
 |                   | Train | Valid Freq. | Valid Rare | Test Freq. | Test Rare | All |
 | ----              | ----  |    ----     |    ----    |   ----     |   ----    |  ----   |
-|# conversations    | 8636  |    539      |    540     |   540      |   537     |  10792  |
-|# utterances       | 188345 |   11813    |    11786   |   11747    |   11743   |  235434 |
-|average # turns per conversation  | 21.9 |    21.9    |   21.8     |   21.7    |   21.8  |  21.8   |
-|average length of utterance    | 19.6  |    19.6      |    19.8     |   19.2      |   19.5     |  19.6   |
+|# conversations    | 8628  |    539      |    539     |   539      |   539     |  10784  |
+|# utterances       | 188378 |   11681    |    11692   |   11760    |   11770   |  235434 |
+|average # turns per conversation  | 21.8 |    21.6    |   21.7     |   21.8    |   21.8  |  21.8   |
+|average length of utterance    | 19.5  |    19.8      |    19.8     |   19.5      |   19.5     |  19.6   |
 
 ### Data Split:
 The data is split into 5 distinct groups: Train, Valid Frequent, Valid Rare, Test Frequent and Test Rare.
