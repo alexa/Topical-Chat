@@ -59,7 +59,7 @@ def create_post_built_reading_set_file(input_directory, output_directory, filena
         for key in tqdm(reading_set.keys()):
             article_url = reading_set[key]['article_url']
             del reading_set[key]['article_url']
-            if article_url is not None and reading_set[key]['config'] is not "C":
+            if article_url is not None and reading_set[key]['config'] != "C":
                 if article_url not in article_url_to_content_mapping.keys():
                     topical_content_wapo_section = wapo_retriever.get_wapo_article_section(article_url)
                     article_url_to_content_mapping[article_url] = topical_content_wapo_section
@@ -73,7 +73,7 @@ def create_post_built_reading_set_file(input_directory, output_directory, filena
                                                'AS3': topical_content_wapo_section['AS3'],
                                                'AS4': topical_content_wapo_section['AS4']
                                                }
-            elif article_url is not None and reading_set[key]['config'] is "C" :
+            elif article_url is not None and reading_set[key]['config'] == "C" :
                 reading_set[key]['article'] = {'url': article_url}
             else:
                 reading_set[key]['article'] = {}
