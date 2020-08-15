@@ -15,8 +15,8 @@ For more detailed information about the dataset and benchmarking experiments ref
 ## Setup Environment to Build Data
 ```
 Ensure that your Python Interpreter >= 3.7
-git clone https://github.com/alexa/alexa-prize-topical-chat-dataset.git
-cd alexa-prize-topical-chat-dataset/src
+git clone https://github.com/alexa/Topical-Chat.git
+cd Topical-Chat/src
 pip3 install -r requirements.txt
 
 Building the data requires Reddit credentials. 
