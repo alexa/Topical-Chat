@@ -27,7 +27,7 @@ Please create your own Reddit API keys: https://www.reddit.com
 python3 build.py  --reddit_client_id CLIENT_ID --reddit_client_secret CLIENT_SECRET --reddit_user_agent USER_AGENT
 ```
 build.py will take around 50 minutes to finish.  
-build.py will read each file in /alexa-prize-topical-chat-dataset/reading_sets/pre-build folder, create a replica JSON with the exact same name with the actual reading sets included in /alexa-prize-topical-chat-dataset/reading_sets/post-build folder.
+build.py will read each file in /Topical-Chat/reading_sets/pre-build folder, create a replica JSON with the exact same name with the actual reading sets included in /Topical-Chat/reading_sets/post-build folder.
 
 ## Data
 
@@ -56,7 +56,7 @@ For each conversation, we apply a random configuration from a pre-defined list o
 
 ### Conversation File:
 
-**Each .json file in alexa-prize-topical-chat-dataset/conversations/ directory has the specified format:**
+**Each .json file in Topical-Chat/conversations/ directory has the specified format:**
 ```
 {
 <conversation_id>: {
@@ -93,7 +93,7 @@ For each conversation, we apply a random configuration from a pre-defined list o
 
 ### Reading Sets File:
 
-**Each .json file in alexa-prize-topical-chat-dataset/reading_sets/ directory:**
+**Each .json file in Topical-Chat/reading_sets/ directory:**
 ```
 {
 <conversation_id> : {
