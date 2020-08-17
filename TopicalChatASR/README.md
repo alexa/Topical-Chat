@@ -31,9 +31,9 @@ Two automated transcription systems (A and B) were independently used to transcr
 
 - The WERs computed are higher than true ASR WERs because:
 
- - the ASR transcripts are not being compared against actual human transcriptions of the audio, rather, they are being compared against the original written-text messages that were supposed to be verbally read.
+  - the ASR transcripts are not being compared against actual human transcriptions of the audio, rather, they are being compared against the original written-text messages that were supposed to be verbally read.
 
- - normalization of the ASR outputs against the original written-text was not performed, for example: `that's` vs. `that is`, `superpower` vs. `super power`, `222-0` vs. `222 to 0`.
+  - normalization of the ASR outputs against the original written-text was not performed, for example: `that's` vs. `that is`, `superpower` vs. `super power`, `222-0` vs. `222 to 0`.
 
 
 ## Citation
