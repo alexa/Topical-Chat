@@ -41,7 +41,7 @@ If you use this dataset, please cite the following two papers:
 ### Topical-Chat ASR
 ```
 @inproceedings{gopalakrishnan2020speechrobust,
-  author={Karthik Gopalakrishnan and Behnam Hedayatnia and Longshaokan Wang and Yang Liu and Dilek Hakkani-Tür},
+  author={Gopalakrishnan, Karthik and Hedayatnia, Behnam and Wang, Longshaokan and Liu, Yang and Hakkani-Tür, Dilek},
   title={{Are Neural Open-Domain Dialog Systems Robust to Speech Recognition Errors in the Dialog History? An Empirical Study}},
   year={2020},
   booktitle={INTERSPEECH}
@@ -51,7 +51,7 @@ If you use this dataset, please cite the following two papers:
 ### Topical-Chat
 ```
 @inproceedings{gopalakrishnan2019topical,
-  author={Karthik Gopalakrishnan and Behnam Hedayatnia and Qinlang Chen and Anna Gottardi and Sanjeev Kwatra and Anu Venkatesh and Raefer Gabriel and Dilek Hakkani-Tür},
+  author={Gopalakrishnan, Karthik and Hedayatnia, Behnam and Chen, Qinlang and Gottardi, Anna and Kwatra, Sanjeev and Venkatesh, Anu and Gabriel, Raefer and Hakkani-Tür, Dilek},
   title={{Topical-Chat: Towards Knowledge-Grounded Open-Domain Conversations}},
   year={2019}
   booktitle={INTERSPEECH}
