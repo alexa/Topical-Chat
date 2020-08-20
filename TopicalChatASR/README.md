@@ -53,7 +53,7 @@ If you use this dataset, please cite the following two papers:
 @inproceedings{gopalakrishnan2019topical,
   author={Gopalakrishnan, Karthik and Hedayatnia, Behnam and Chen, Qinlang and Gottardi, Anna and Kwatra, Sanjeev and Venkatesh, Anu and Gabriel, Raefer and Hakkani-Tür, Dilek},
   title={{Topical-Chat: Towards Knowledge-Grounded Open-Domain Conversations}},
-  year={2019}
+  year={2019},
   booktitle={INTERSPEECH}
 }
 
