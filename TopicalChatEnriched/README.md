@@ -16,7 +16,20 @@ This tagger was trained on five datasets (Switchboard, Oasis BT, Maptask, VerbMo
 After cloning the repo you must first follow the instructions in https://github.com/alexa/Topical-Chat/blob/master/README.md. This includes building the original dataset along with the reading sets. Look at the Build Section for the exact steps. Once the original dataset is built each .json file will contain pointers to the knowledge sentences in the reading sets.
 
 ### Conversations:
-The data is hosted on s3 at this link <https s3 link>. Each .json file has the specified format:
+The data is hosted on s3. To pull the data run these commands: 
+```
+wget https://enriched-topical-chat.s3.amazonaws.com/train.json
+
+wget https://enriched-topical-chat.s3.amazonaws.com/valid_freq.json
+
+wget https://enriched-topical-chat.s3.amazonaws.com/valid_rare.json
+
+wget https://enriched-topical-chat.s3.amazonaws.com/test_freq.json
+
+wget https://enriched-topical-chat.s3.amazonaws.com/test_rare.json
+```
+
+Each .json file has the specified format:
     
 ```    
 {
@@ -81,9 +94,10 @@ If you use this dataset, please cite the following two papers:
 ### Topical-Chat
 ```
 @inproceedings{gopalakrishnan2019topical,
-  title={Topical-Chat: Towards Knowledge-Grounded Open-Domain Conversations.},
-  author={Gopalakrishnan, Karthik and Hedayatnia, Behnam and Chen, Qinglang and Gottardi, Anna and Kwatra, Sanjeev and Venkatesh, Anu and Gabriel, Raefer and Hakkani-T{\"u}r, Dilek and AI, Amazon Alexa},
-  year={2019}
+  author={Gopalakrishnan, Karthik and Hedayatnia, Behnam and Chen, Qinlang and Gottardi, Anna and Kwatra, Sanjeev and Venkatesh, Anu and Gabriel, Raefer and Hakkani-Tür, Dilek},
+  title={{Topical-Chat: Towards Knowledge-Grounded Open-Domain Conversations}},
+  year={2019},
+  booktitle={INTERSPEECH}
 }
 
 ```
