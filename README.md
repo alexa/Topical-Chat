@@ -27,6 +27,7 @@ preferably after creating a virtual environment:
 ```
 cd src/
 pip install -r requirements.txt
+mkdir reading_sets/post-build/
 ```
 
 Please create your own Reddit API
@@ -43,7 +44,7 @@ own Reddit credentials in `src/reddit/prawler.py` and creating a `reading_sets/p
 
 `build.py` will read each file in `reading_sets/pre-build/`,
 create a replica JSON with the exact same name and the actual reading
-sets included in `reading_sets/post-build/`.
+sets included in `reading_sets/post-build/`
 
 ## Dataset
 
@@ -78,7 +79,7 @@ the collection of a wide variety of conversations.
 
 ### Conversations:
 
-**Each JSON file in conversations/ has the following
+**Each JSON file in `conversations/` has the following
 format:**
 ```
 {
@@ -119,7 +120,7 @@ reading sets for a conversation
 
 ### Reading Sets:
 
-**Each JSON file in reading_sets/post-build/ has the
+**Each JSON file in `reading_sets/post-build/` has the
 following format:**
 ```
 {
