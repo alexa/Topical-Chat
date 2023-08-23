@@ -11,7 +11,7 @@ Amazon Mechanical Turk workers.
 - Reading Sets: JSON files containing knowledge sections rendered as
 reading content to the Turkers having conversations.
 
-We provide a simple script, build.py, to build the
+We provide a simple script, `build.py`, to build the
 reading sets for the dataset, by making API calls
 to the relevant sources of the data.
 
@@ -25,7 +25,7 @@ After cloning this repo, please run the following commands,
 preferably after creating a virtual environment:
 
 ```
-cd topical-chat/src/
+cd src/
 pip install -r requirements.txt
 ```
 
@@ -39,11 +39,11 @@ and we recommend using Python 3.7.
 ## Build
 
 Run `python build.py`, after having manually added your
-own Reddit credentials in `src/reddit/prawler.py`
+own Reddit credentials in `src/reddit/prawler.py` and creating a `reading_sets/post-build/` directory.
 
-build.py will read each file in reading_sets/pre-build/,
+`build.py` will read each file in `reading_sets/pre-build/`,
 create a replica JSON with the exact same name and the actual reading
-sets included in reading_sets/post-build/.
+sets included in `reading_sets/post-build/`.
 
 ## Dataset
 
@@ -78,7 +78,7 @@ the collection of a wide variety of conversations.
 
 ### Conversations:
 
-**Each .json file in topical_chat/conversations/ has the following
+**Each JSON file in conversations/ has the following
 format:**
 ```
 {
@@ -119,7 +119,7 @@ reading sets for a conversation
 
 ### Reading Sets:
 
-**Each .json file in topical_chat/reading_sets/post-build/ has the
+**Each JSON file in reading_sets/post-build/ has the
 following format:**
 ```
 {
@@ -193,7 +193,7 @@ with a conversation
 }
 ```
 
-build.py puts data from wiki.json into the relevant reading
+`build.py` puts data from `wiki.json` into the relevant reading
 sets.
 
 ## Citation
