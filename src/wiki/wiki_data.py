@@ -6,26 +6,26 @@ import json
 
 class WikiData:
     def __init__(self):
-        self.id_to_shortened_wiki_lead_section_mapping = {}
-        self.id_to_summarized_wiki_lead_section = {}
-        self.load_data()
+        self._id_to_shortened_wiki_lead_section = dict()
+        self._id_to_summarized_wiki_lead_section = dict()
+        self._load_data()
 
-    def load_data(self):
+    def _load_data(self):
         with open("wiki/wiki.json", "r") as f:
-            wiki_data = json.load(f)
-            shortened_wiki_lead_section = wiki_data['shortened_wiki_lead_section']
-            summarized_wiki_lead_section = wiki_data['summarized_wiki_lead_section']
+            _wiki_data = json.load(f)
+            shortened_wiki_lead_section = _wiki_data["shortened_wiki_lead_section"]
+            summarized_wiki_lead_section = _wiki_data["summarized_wiki_lead_section"]
 
             for key in shortened_wiki_lead_section.keys():
                 value = shortened_wiki_lead_section[key]
-                self.id_to_shortened_wiki_lead_section_mapping[value] = key
+                self._id_to_shortened_wiki_lead_section[value] = key
 
             for key in summarized_wiki_lead_section.keys():
                 value = summarized_wiki_lead_section[key]
-                self.id_to_summarized_wiki_lead_section[value] = key
+                self._id_to_summarized_wiki_lead_section[value] = key
 
-    def get_wiki_text(self, key, wiki_id):
-        if key == 'shortened_wiki_lead_section':
-            return self.id_to_shortened_wiki_lead_section_mapping[wiki_id]
-        elif key == 'summarized_wiki_lead_section':
-            return self.id_to_summarized_wiki_lead_section[wiki_id]
+    def get_wiki_text(self, key, id):
+        if key == "shortened_wiki_lead_section":
+            return self._id_to_shortened_wiki_lead_section[id]
+        elif key == "summarized_wiki_lead_section":
+            return self._id_to_summarized_wiki_lead_section[id]
