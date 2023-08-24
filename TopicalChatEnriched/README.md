@@ -85,7 +85,7 @@ If you use this dataset, please cite the following two papers:
 ```
 @article{hedayatnia2020policy,
   title={Policy-Driven Neural Response Generation for Knowledge-Grounded Dialogue Systems},
-  author={Hedayatnia, Behnam and Kim, Seokhwan and Liu, Yang and Gopalakrishnan, Karthik and Eric, Mihail and Hakkani-Tur, Dilek},
+  author={Hedayatnia, Behnam and Gopalakrishnan, Karthik and Kim, Seokhwan and Liu, Yang and Eric, Mihail and Hakkani-Tur, Dilek},
   journal={arXiv preprint arXiv:2005.12529},
   year={2020}
 }
