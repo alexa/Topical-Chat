@@ -179,7 +179,7 @@ with a conversation
 	- AS{1/2/3/4}: A chunk of the body of the Washington Post article
 
 ### Wikipedia Data:
-**src/wiki.json has the following format:**
+**`src/wiki/wiki.json` has the following format:**
 
 ```
 {
@@ -188,8 +188,8 @@ with a conversation
     <shortened wiki lead section text>: <unique_identifier>
   },
   "summarized_wiki_lead_section": {
-    <summarized wiki lead section text>": <unique_identifier>,
-    <summarized wiki lead section text>": <unique_identifier>
+    <summarized wiki lead section text>: <unique_identifier>,
+    <summarized wiki lead section text>: <unique_identifier>
   }
 }
 ```
