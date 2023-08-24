@@ -17,7 +17,7 @@ to the relevant sources of the data.
 
 For detailed information about the dataset, modeling
 benchmarking experiments and evaluation results,
-please refer to our [paper](https://m.media-amazon.com/images/G/01/amazon.jobs/3079_Paper._CB1565131710_.pdf).
+please refer to our [paper](https://arxiv.org/abs/2308.11995).
 
 ## Prerequisites
 
