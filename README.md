@@ -25,8 +25,7 @@ After cloning this repo, please run the following commands,
 preferably after creating a virtual environment:
 
 ```
-cd src/
-pip install -r requirements.txt
+pip install -r src/requirements.txt
 mkdir reading_sets/post-build/
 ```
 
